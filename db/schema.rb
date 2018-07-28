@@ -13,6 +13,13 @@
 
 ActiveRecord::Schema.define(version: 20180728024828) do
 
+  create_table "danches", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "numb"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "models", force: :cascade do |t|
     t.string   "name"
     t.integer  "numb"

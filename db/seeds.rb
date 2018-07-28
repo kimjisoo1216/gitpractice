@@ -6,5 +6,6 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 for i in 1..1000
+
     Model.create(name:"고양이 동아리#{i}", numb: i)
 end
